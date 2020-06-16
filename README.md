@@ -17,4 +17,5 @@ For Usage information:
 _P.S. Currently in testing phase. Any suggestions or changes requested will be appreciated!_
 
 ## Contributors
-
+**Kumar Ashwin**
+Email: **krashwin00@gmail.com**
