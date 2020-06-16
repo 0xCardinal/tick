@@ -5,7 +5,7 @@ A CLI based To-do List Utility.
 ## Installation
 If you have go installed previously, use
 ```shell 
-go get go get https://github.com/krAshwin/tick
+go get https://github.com/krAshwin/tick
 ```
 
 * **Start using Tick by typing out the `tick` command in the terminal.**
