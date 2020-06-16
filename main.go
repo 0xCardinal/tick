@@ -13,7 +13,7 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 )
 
-// Setup - Create a database if not exist (tt -s)
+// Setup - Create a database if not exist (tick -s)
 func setup() {
 
 	// Header
@@ -41,7 +41,7 @@ Welcome to Tick!
 	
 As name suggests this is a todo list that can be accessed on a terminal.
 	
-Type 'tt -h' for more info.`)
+Type 'tick -h' for more info.`)
 
 	fmt.Print("\nDo you want to setup tick? (y/n): ")
 	reader := bufio.NewReader(os.Stdin)
@@ -69,15 +69,16 @@ Type 'tt -h' for more info.`)
 		color.Unset()
 		color.Set(color.FgGreen, color.Bold)
 
-		fmt.Println("Setup Complete...\nType 'tt -h' for help. \nWe hope Tick makes you more productive!")
+		fmt.Println("Setup Complete...\nType 'tick -h' for help. \nWe hope Tick makes you more productive!")
 
 		color.Unset()
+		fmt.Println()
 	} else if strings.Compare(consent, "n") == 0 {
 		color.Red("Hope to see you soon!")
 	}
 }
 
-// Add Task (tt -a)
+// Add Task (tick -a)
 // Open a shell, that lets user to add tasks to db
 // For Urgent - !urgent
 // For Exit - !exit
@@ -270,7 +271,7 @@ Welcome to Tick!
 A handy todo list, accessible from Terminal! (Terminal Todo)
 
 Usage:
-  tt [OPTIONS] {-d|--delete} [args...]
+  tick [OPTIONS] {-d|--delete} [args...]
   
 Options:
 					Shows the complete to-do list
@@ -284,7 +285,7 @@ Options:
 	  --version		Prints the version information
 
 Example:
-  tt -d 1 2 5		// Deletes the tasks with index 1,2 and 5
+  tick -d 1 2 5		// Deletes the tasks with index 1,2 and 5
   
   `
 		fmt.Fprintf(os.Stderr, h)
