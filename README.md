@@ -12,7 +12,7 @@ go get https://github.com/krAshwin/tick
 * **For new users it will prompt to create a database. Following that same command will pop up the todo list.**
 * Type `tick -h` for help and usage info!
 
-For Usage information: 
+For Usage information: (tickHelp.txt)[https://github.com/krAshwin/tick/blob/master/tickHelp.txt]
 
 _P.S. Currently in testing phase. Any suggestions or changes requested will be appreciated!_
 
