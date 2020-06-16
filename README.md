@@ -17,5 +17,5 @@ For Usage information: [tickHelp.txt](https://github.com/krAshwin/tick/blob/mast
 _P.S. Currently in testing phase. Any suggestions or changes requested will be appreciated!_
 
 ## Contributors
-**Kumar Ashwin**
+**Kumar Ashwin** <br>
 Email: **krashwin00@gmail.com**
