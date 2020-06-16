@@ -2,7 +2,7 @@
 A CLI based To-do List Utility.
 
 
-## Installation
+## Getting Started
 If you have go installed previously, use
 ```shell 
 go get https://github.com/krAshwin/tick
