@@ -5,15 +5,15 @@ Usage:
   tick [OPTIONS] {-d|--delete} [args...]
   
 Options:
-					Shows the complete to-do list
+			Shows the complete to-do list
   -s, --setup 		Setup Tick for use (initilize database)
-  -a, --add			Interactive shell to add tasks.
-						> use !urgent at the start of the tasks to specify urgency
-						> use !exit at the start to exit the interactive shell
+  -a, --add		Interactive shell to add tasks.
+				> use !urgent at the start of the tasks to specify urgency
+				> use !exit at the start to exit the interactive shell
   -d, --delete		Deletes tasks based on tasks' indices
   -u, --urgent		Prints the urgent tasks only
-	  --deleted		Prints the deleted tasks only
-	  --version		Prints the version information
+      --deleted		Prints the deleted tasks only
+      --version		Prints the version information
 
 Example:
   tick -d 1 2 5		// Deletes the tasks with index 1,2 and 5
